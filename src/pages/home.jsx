@@ -30,8 +30,8 @@ const featured = [
   {
     title: 'PharmaPortal',
     tagline: 'Final-year project',
-    logo: '/images/pharmaportal.png',
-    website: '/pharmaportal/index.html',
+    logo: '/portfolio/images/pharmaportal.png',
+    website: '/portfolio/pharmaportal/index.html',
     desc: 'Web platform connecting pharmacies to their local clients   stock & availability publishing, relevance-scored medication search, distance-aware pharmacy discovery, and 24-hour reservations with pickup codes.',
     tags: ['laravel', 'mongodb', 'php', 'tailwindcss', 'vite'],
     to: '/projects',

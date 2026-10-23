@@ -12,7 +12,7 @@ const fadeUp = {
 }
 
 const tabs = [
-  { id: 'pharmaportal', label: 'PharmaPortal', img: '/images/pharmaportal.png' },
+  { id: 'pharmaportal', label: 'PharmaPortal', img: '/portfolio/images/pharmaportal.png' },
   { id: 'network', label: 'Network Analyzer', icon: 'terminal' },
   { id: 'team', label: 'CoPal   Team Software', icon: 'users' },
 ]
