@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/png" href="/pharmaportal/logo/pharmaportal.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#059669" />
+        <title>PharmaPortal — Pharmacy Software &amp; Medication Search</title>
+        <meta
+            name="description"
+            content="PharmaPortal is pharmacy management software that connects pharmacies with clients. Track stock, control availability, publish your pharmacy to nearby patients and let them reserve medication for pickup."
+        />
+        <meta property="og:title" content="PharmaPortal — Pharmacy Software & Medication Search" />
+        <meta
+            property="og:description"
+            content="Stock control, availability publishing and nearby medication search for pharmacies and the people who need them."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/pharmaportal/logo/pharmaportal.png" />
+
+        <link rel="preconnect" href="https://fonts.bunny.net" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700,800,900&display=swap"
+            media="print"
+            onload="this.media='all'"
+        />
+        <noscript>
+            <link
+                rel="stylesheet"
+                href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700,800,900&display=swap"
+            />
+        </noscript>
+      <script type="module" crossorigin src="/pharmaportal/assets/index-ZX0_US9U.js"></script>
+      <link rel="stylesheet" crossorigin href="/pharmaportal/assets/index-CAFf9sUl.css">
+    </head>
+    <body>
+        <div id="root"></div>
+    </body>
+</html>
