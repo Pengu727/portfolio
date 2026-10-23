@@ -158,7 +158,7 @@ export default function About() {
             >
               <img
                 className="photo"
-                src="/images/pfp.webp"
+                src="/portfolio/images/pfp.webp"
                 alt="Portrait of Bouazza Ahmed Amine Aissa"
                 style={{ aspectRatio: '2 / 2.4', width: '100%' }}
               />

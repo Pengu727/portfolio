@@ -56,7 +56,7 @@ function PharmaPortal() {
         <p className="meta">Final-year project &middot; Laravel 13.8 · PHP 8.3+ · MongoDB · Blade · Tailwind CSS 4 · Vite</p>
         <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 6 }}>
           <img
-            src="/images/pharmaportal.png"
+            src="/portfolio/images/pharmaportal.png"
             alt="PharmaPortal logo"
             style={{ width: 40, height: 40, objectFit: 'contain', borderRadius: 10, background: '#fff', border: '1px solid var(--border)', padding: 5 }}
           />
@@ -69,7 +69,7 @@ function PharmaPortal() {
           search those products, find the closest pharmacy that has one, and hold it for pickup.
         </p>
         <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 22, flexWrap: 'wrap' }}>
-          <a className="btn btn-primary" href="/pharmaportal/index.html">
+          <a className="btn btn-primary" href="/portfolio/pharmaportal/index.html">
             Visit PharmaPortal website
             <Icon name="external-link" size={16} />
           </a>

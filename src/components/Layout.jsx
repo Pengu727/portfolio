@@ -41,7 +41,7 @@ export default function Layout({ children }) {
       <header className="nav">
         <div className="nav-inner">
           <Link to="/" className="nav-logo" aria-label="Back to home">
-            <img className="logo-mark" src="/images/pengu.webp" alt="Penguin logo" width="36" height="36" />
+            <img className="logo-mark" src="/portfolio/images/pengu.webp" alt="Penguin logo" width="36" height="36" />
             <span className="logo-word">Pengu<span className="logo-dot">.</span>dev</span>
           </Link>
 

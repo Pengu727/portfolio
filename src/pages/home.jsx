@@ -106,7 +106,7 @@ export default function Home() {
             transition={{ delay: 0.15, duration: 0.6, ease: 'easeOut' }}
           >
             <div className="photo-frame">
-              <img className="photo" src="/images/pfp.webp" alt="Portrait of Bouazza Ahmed Amine Aissa" />
+              <img className="photo" src="/portfolio/images/pfp.webp" alt="Portrait of Bouazza Ahmed Amine Aissa" />
               <span className="photo-chip">
                 <Icon name="terminal" size={14} />
                 backenddev /system admin
