@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+        @apply bg-slate-50 text-slate-600 font-sans antialiased;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        @apply text-slate-800;
+    }
+
+    :focus-visible {
+        @apply outline-none ring-2 ring-pharmacy-600 ring-offset-2 ring-offset-white rounded-sm;
+    }
+}
+
+@layer components {
+    /* Container matching the application's max-w-7xl rhythm */
+    .container-app {
+        @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+    }
+
+    /* Primary action button, mirrors bg-pharmacy-600 -> bg-pharmacy-700 */
+    .btn {
+        @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-bold
+               transition duration-150 active:scale-[0.99] disabled:pointer-events-none disabled:opacity-60;
+    }
+
+    .btn-primary {
+        @apply btn bg-pharmacy-600 text-white shadow-md shadow-emerald-600/10 hover:bg-pharmacy-700;
+    }
+
+    .btn-secondary {
+        @apply btn border border-slate-200 bg-white text-slate-700 shadow-card hover:bg-slate-50;
+    }
+
+    .btn-dark {
+        @apply btn bg-slate-900 text-white hover:bg-slate-800;
+    }
+
+    .btn-ghost {
+        @apply btn text-slate-600 hover:bg-slate-100 hover:text-slate-900;
+    }
+
+    .btn-sm {
+        @apply px-4 py-2 text-xs;
+    }
+
+    /* Surface treatment used throughout the application */
+    .card {
+        @apply rounded-2xl border border-slate-200 bg-white shadow-card;
+    }
+
+    .card-hover {
+        @apply card transition duration-200 hover:-translate-y-0.5 hover:shadow-lift;
+    }
+
+    /* Small uppercase label, the app's table-header / stat-label style */
+    .eyebrow {
+        @apply text-[11px] font-bold uppercase tracking-wider text-slate-400;
+    }
+
+    .field {
+        @apply w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-800
+               transition placeholder:text-slate-400 focus:border-pharmacy-600 focus:bg-white focus:outline-none
+               focus:ring-4 focus:ring-pharmacy-600/10;
+    }
+
+    .badge {
+        @apply inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide;
+    }
+}
+
+@layer utilities {
+    .section-pad {
+        @apply py-16 sm:py-20 lg:py-24;
+    }
+
+    /* Subtle checkerboard used behind screenshot frames */
+    .frame-grid {
+        background-image:
+            linear-gradient(to right, rgb(226 232 240 / 0.55) 1px, transparent 1px),
+            linear-gradient(to bottom, rgb(226 232 240 / 0.55) 1px, transparent 1px);
+        background-size: 28px 28px;
+    }
+}
