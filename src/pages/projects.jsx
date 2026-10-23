@@ -69,7 +69,7 @@ function PharmaPortal() {
           search those products, find the closest pharmacy that has one, and hold it for pickup.
         </p>
         <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 22, flexWrap: 'wrap' }}>
-          <a className="btn btn-primary" href="/portfolio/pharmaportal/index.html">
+          <a className="btn btn-primary" href="/portfolio/pharmaportal_website/index.html">
             Visit PharmaPortal website
             <Icon name="external-link" size={16} />
           </a>
